@@ -1,6 +1,6 @@
 # Two Sum
 
-So an this problem solvation i need to provide an array of numbers and a target numbers, and i need to find two numbers from that array that when summed together it will equal the target number.
+So in this problem solvation i need to provide an array of numbers and a target number, and i need to find two numbers from that array that when summed together it will equal the target number.
 
 ### Example:
 ```py
