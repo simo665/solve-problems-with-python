@@ -2,7 +2,6 @@ class Solution:
     def __init__(self, array, target):
         self.array = array
         self.target = target
-        self.get_solution()
     
     @property
     def array(self):
