@@ -1,2 +1,3 @@
-# solve-problems-with-python
-# solve-problems-with-python
+# Solve problems 
+
+I Will upload all the programming problems i have solved in this repository.
