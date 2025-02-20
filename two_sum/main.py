@@ -2,7 +2,6 @@ class Solution:
     def __init__(self, array, target):
         self.array = array
         self.target = target
-        self.get_solution()
     
     @property
     def array(self):
@@ -42,18 +41,16 @@ class Solution:
     
     def get_solution(self):
         nums = self.array
-        for num in nums:
-            for num2 in nums:
-                if num == num2:
-                    continue 
-                sum = num + num2
+        for i in range(len(nums)):
+            for i2 in range(i + 1, len(nums)):
+                sum = nums[i] + nums[i2]
                 if sum == self.target:
-                    return [nums.index(num), nums.index(num2)]
+                    return [i, i2]
         return None
 
 def main():
-    list = [1,3,5,6,9,2]
-    print(Solution(list, 5).get_solution())
+    list = [1, 2, 4, 9, 4]
+    print(Solution(list, 8).get_solution())
 
 if __name__ == "__main__":
     main()
